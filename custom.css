@@ -96,14 +96,14 @@ a.PhotoWrap:hover img {
 }
 
 #title {
-    background:url('http://cdn.vanillaforums.com/lawyeristlab.vanillaforums.com/8XFWDXTJJYYJ.jpg') no-repeat left center;
+    background:url('http://cdn.vanillaforums.com/lawyeristlab.vanillaforums.com/3G962GHBQZ7E.jpg') no-repeat left center;
 	display:inline-block;
 	float:left;
 	font-size:10px;
 	line-height:1em;
 	margin:0 15px 0 0;
 	padding:0;
-	width:216px;
+	width:310px;
 }
 
 	#title a {
@@ -158,11 +158,11 @@ a.PhotoWrap:hover img {
 		background-color:#444;
 		color:#1e79a7;
 	}
-	
+
 	#blog_forum_nav li.nav_lab a {
 		color:#aaa;
 	}
-	
+
 	#blog_forum_nav li.nav_lab a:hover {
 		color:#ccc;
 	}
@@ -183,37 +183,37 @@ a.PhotoWrap:hover img {
     	font-size:16px;
     	line-height:1em;
     }
-    
+
     .MeBox a.Username:hover {
     	color:#ddd !important;
     }
-    
+
      .MeMenu {
     	display:inline-block;
     	float:right;
     }
-    
+
      #Head .MeMenu a {
     	font-weight:normal;
     }
-    	
+
     	.MeMenu a.MeButton {
     		margin-left:10px;
     		padding:0;
     	}
-    	
+
     	#Head .MeMenu ul.PopList li.Item a {
     		color:#004d9f;
     	}
-    	
+
     	#Head .MeMenu ul.Poplist li.Item:hover {
     		background:rgba(0, 0, 0, 0.1);
     	}
-    
+
 		.MeMenu .Sprite16 {
 			background-image:url('http://vanillicon.com/sprites/sprites-14-ffffff.png') !important;
 		}
-	
+
 		.MeMenu .Sprite16:hover {
 			background-image:url('http://vanillicon.com/sprites/sprites-14-dddddd.png') !important;
 		}
@@ -221,15 +221,15 @@ a.PhotoWrap:hover img {
     	.MeMenu .SpNotifications {
     		background-position:-160px -100px;
     	}
-    	
+
     	.MeMenu .SpInbox {
     		background-position:-100px -100px;
     	}
-    	
+
     	.MeMenu .SpBookmarks {
     		background-position:-80px -80px;
     	}
-    
+
     	.MeMenu .SpOptions {
     		background-position:-180px -60px;
     	}
@@ -241,7 +241,7 @@ a.PhotoWrap:hover img {
     overflow:visible;
     width:100%;
 }
-    
+
     .BreadcrumbsWrapper {
         margin:0 auto;
         max-width:980px;
@@ -259,7 +259,7 @@ a.PhotoWrap:hover img {
         background:#1a678f;
         color:#fff;
     }
-    
+
     .BreadcrumbsWrapper .Crumb {
         color:#eee;
     }
@@ -280,7 +280,7 @@ a.PhotoWrap:hover img {
 }
 
 #lawyerist_sidebar_search input#st-search-input {
-	border-radius:2px !important; 
+	border-radius:2px !important;
     -moz-border-radius:2px !important;
 	-webkit-border-radius:2px !important;
 	font-size:16px !important;
@@ -311,13 +311,16 @@ ul.sidebar_ads li {
 	font-size:16px !important;
 }
 
+.Item .Reactions > * {
+  visibility:visible;
+}
+
 .NumberedPager a,
 .NumberedPager .Ellipsis,
 .NumberedPager .Previous,
 .NumberedPager .Next {
 	display:inline-block;
 	font-size:14px;
-	font-style:italic;
 	font-weight:200;
 	height:24px;
 	margin:0 4px 0 0;
@@ -351,6 +354,12 @@ ul.sidebar_ads li {
 
 
 /* FOOTER */
+
+
+#footer {
+  min-height:160px;
+  padding:26px;
+}
 
 .PoweredByVanilla {
 	display:none;
