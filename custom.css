@@ -96,12 +96,12 @@ a.PhotoWrap:hover img {
 }
 
 #title {
-    background:url('http://cdn.vanillaforums.com/lawyeristlab.vanillaforums.com/3G962GHBQZ7E.jpg') no-repeat left center;
+  background:url('http://cdn.vanillaforums.com/lawyeristlab.vanillaforums.com/3G962GHBQZ7E.jpg') no-repeat left center;
 	display:inline-block;
 	float:left;
 	font-size:10px;
 	line-height:1em;
-	margin:0 15px 0 0;
+	margin:0 10px 0 0;
 	padding:0;
 	width:310px;
 }
@@ -112,11 +112,11 @@ a.PhotoWrap:hover img {
 		margin:10px 0;
 		padding:0;
 		text-indent:-9999px;
-		width:300px;
+		width:100%;
 	}
 
 #blog_forum_nav {
-    display:inline-block;
+  display:inline-block;
 	float:left;
 }
 
@@ -134,7 +134,7 @@ a.PhotoWrap:hover img {
 	}
 
 	#blog_forum_nav li.nav_blog,
-    #blog_forum_nav li.nav_lab {
+  #blog_forum_nav li.nav_lab {
 	}
 
 	#blog_forum_nav a {
@@ -167,8 +167,68 @@ a.PhotoWrap:hover img {
 		color:#ccc;
 	}
 
+	/*------------------------------
+	Newsletter Signup
+	------------------------------*/
+
+	#email_social {
+		display:inline-block;
+		float:right;
+		margin-top:13px;
+	}
+
+		#email_social ul {
+			display:block;
+			list-style:none;
+			margin:0;
+		}
+
+			#email_social ul li {
+				display:inline-block;
+				margin:0;
+				padding:0;
+			}
+
+				#email_social form#lawyerist_insider_subscribe {
+					margin:0;
+				}
+
+				#email_social form#lawyerist_insider_subscribe input[type="text"] {
+					box-sizing:content-box;
+					background:#ffffb3;
+					border:0;
+          border-radius:2px;
+          box-shadow:inset 0 .1rem .3rem 0 rgba(0,0,0,0.17);
+					color:#222;
+					display:block;
+          font-family:"Source Sans Pro",sans-serif;
+					font-size:16px;
+					margin:0;
+					padding:6px 8px !important;
+					width:222px;
+				}
+
+        #email_social form#lawyerist_insider_subscribe input[type="text"]:focus {
+          box-shadow:0 0 .3rem rgba(0,0,0,.2);
+        }
+
+				#email_social form#lawyerist_insider_subscribe input[type="text"]:focus {
+					background:#fff;
+					color:#222;
+				}
+
+				#email_social form#lawyerist_insider_subscribe label {
+          display:block;
+					height:0;
+          margin:0;
+          padding:0;
+					text-indent:-99999px;
+				}
+
+
 .MeBox {
-    float:right;
+  float:right;
+  margin-left:15px;
 	width:152px;
 }
 
