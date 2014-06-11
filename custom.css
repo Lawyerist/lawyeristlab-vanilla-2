@@ -412,6 +412,12 @@ ul.sidebar_ads li {
 	line-height:35px !important;
 }
 
+.Rank {
+  background-color:#eee;
+  border-radius:12px;
+  padding:5px 7px;
+}
+
 
 /* FOOTER */
 
