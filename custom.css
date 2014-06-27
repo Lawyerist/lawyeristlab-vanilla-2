@@ -442,7 +442,11 @@ MailChimp Sidebar Form
   margin:0 0 10.5px 0;
   outline:none;
   padding:6px 4px !important;
-  width:290px !important;
+  width:290px;
+}
+
+#mc_embed_signup input[type="text"] {
+  width:300px;
 }
 
 #mc_embed_signup input[type="text"]:focus,
