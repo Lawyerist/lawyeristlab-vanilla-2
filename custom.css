@@ -19,7 +19,7 @@ USEFUL STUFF
 #leaderboard_container {
     background:#ddd;
     padding:10px 0;
-	width:100%;
+  width:100%;
 }
 
 
@@ -27,7 +27,7 @@ USEFUL STUFF
 
 body {
     color:#111;
-	font-family:'Source Sans Pro','HelveticaNeue','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-family:'Source Sans Pro','HelveticaNeue','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 
 .Column h1,
@@ -38,8 +38,8 @@ body {
 .Column h6,
 .Column .Title a {
     color:#333;
-	font-family:'Roboto Slab','Droid Sans','Lucida Grande',Tahoma,sans-serif;
-	font-weight:bold;
+  font-family:'Roboto Slab','Droid Sans','Lucida Grande',Tahoma,sans-serif;
+  font-weight:bold;
 }
 
 
@@ -50,8 +50,8 @@ body {
 @media only screen and (max-width: 727px) {
 
     #leaderboard_container {
-		display:none !important;
-	}
+    display:none !important;
+  }
 
 }
 
@@ -59,33 +59,33 @@ body {
 /* AVATARS */
 
 img.ProfilePhotoMedium {
-	border-radius:20px;
-	-moz-border-radius:20px;
-	-webkit-border-radius:20px;
+  border-radius:20px;
+  -moz-border-radius:20px;
+  -webkit-border-radius:20px;
 }
 
 img.ProfilePhotoLarge {
-	border-radius:100px;
-	-moz-border-radius:100px;
-	-webkit-border-radius:100px;
+  border-radius:100px;
+  -moz-border-radius:100px;
+  -webkit-border-radius:100px;
 }
 
 .Profile img.ProfilePhotoLarge {
-	display:block;
-	margin:0 auto;
+  display:block;
+  margin:0 auto;
 }
 
 a.PhotoWrap:hover img {
-	opacity:.5;
+  opacity:.5;
 }
 
 
 /* LEADERBOARD */
 
 #div-gpt-ad-1357830708450-0 {
-	height:90px;
+  height:90px;
     margin:0 auto;
-	width:728px;
+  width:728px;
 }
 
 
@@ -98,166 +98,166 @@ a.PhotoWrap:hover img {
 
 #title {
   background:url('http://cdn.vanillaforums.com/lawyeristlab.vanillaforums.com/3G962GHBQZ7E.jpg') no-repeat left center;
-	display:inline-block;
-	float:left;
-	font-size:10px;
-	line-height:1em;
-	margin:0 14px 0 0;
-	padding:0;
-	width:310px;
+  display:inline-block;
+  float:left;
+  font-size:10px;
+  line-height:1em;
+  margin:0 14px 0 0;
+  padding:0;
+  width:310px;
 }
 
-	#title a {
-		display:inline-block;
-		height:38px;
-		margin:10px 0;
-		padding:0;
-		text-indent:-9999px;
-		width:100%;
-	}
+  #title a {
+    display:inline-block;
+    height:38px;
+    margin:10px 0;
+    padding:0;
+    text-indent:-9999px;
+    width:100%;
+  }
 
 #blog_forum_nav {
   display:inline-block;
-	float:left;
+  float:left;
 }
 
-	#blog_forum_nav ul {
-		display:block;
-		list-style:none;
-		margin:13px 0 0 0;
-		padding:0;
-	}
+  #blog_forum_nav ul {
+    display:block;
+    list-style:none;
+    margin:13px 0 0 0;
+    padding:0;
+  }
 
-	#blog_forum_nav li {
-		display:inline-block;
-		margin:0;
-		padding:0;
-	}
+  #blog_forum_nav li {
+    display:inline-block;
+    margin:0;
+    padding:0;
+  }
 
-	#blog_forum_nav li.nav_blog,
+  #blog_forum_nav li.nav_blog,
   #blog_forum_nav li.nav_lab {
-	}
+  }
 
-	#blog_forum_nav a {
-		border-radius:2px;
-		-moz-border-radius:2px;
-		-webkit-border-radius:2px;
-		color:#004d9f;
-		display:block;
-		font-size:18px;
-		font-weight:bold;
-		letter-spacing:1px;
-		line-height:1em;
-		margin:0;
-		padding:7px 10px;
-		text-align:center;
-		text-decoration:none;
-		text-transform:uppercase;
-	}
+  #blog_forum_nav a {
+    border-radius:2px;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    color:#004d9f;
+    display:block;
+    font-size:18px;
+    font-weight:bold;
+    letter-spacing:1px;
+    line-height:1em;
+    margin:0;
+    padding:7px 10px;
+    text-align:center;
+    text-decoration:none;
+    text-transform:uppercase;
+  }
 
-	#blog_forum_nav a:hover {
-		background-color:#444;
-		color:#1e79a7;
-	}
+  #blog_forum_nav a:hover {
+    background-color:#444;
+    color:#1e79a7;
+  }
 
-	#blog_forum_nav li.nav_lab a {
-		color:#aaa;
-	}
+  #blog_forum_nav li.nav_lab a {
+    color:#aaa;
+  }
 
-	#blog_forum_nav li.nav_lab a:hover {
-		color:#ccc;
-	}
+  #blog_forum_nav li.nav_lab a:hover {
+    color:#ccc;
+  }
 
-	/*------------------------------
-	Newsletter Signup
-	------------------------------*/
+  /*------------------------------
+  Newsletter Signup
+  ------------------------------*/
 
-	#email_social {
-		display:inline-block;
-		float:right;
-		margin-top:13px;
-	}
+  #email_social {
+    display:inline-block;
+    float:right;
+    margin-top:13px;
+  }
 
-		#email_social ul {
-			display:block;
-			list-style:none;
-			margin:0;
-		}
+    #email_social ul {
+      display:block;
+      list-style:none;
+      margin:0;
+    }
 
-			#email_social ul li {
-				display:inline-block;
-				margin:0;
-				padding:0;
-			}
+      #email_social ul li {
+        display:inline-block;
+        margin:0;
+        padding:0;
+      }
 
 
 .MeBox {
   float:right;
   margin-left:15px;
-	width:152px;
+  width:152px;
 }
 
-	.MeBox a.PhotoWrap {
-		display:inline-block;
-		margin:0;
-	}
+  .MeBox a.PhotoWrap {
+    display:inline-block;
+    margin:0;
+  }
 
     .MeBox a.Username {
-    	display:inline-block;
-    	float:right;
-    	font-size:16px;
-    	line-height:1em;
+      display:inline-block;
+      float:right;
+      font-size:16px;
+      line-height:1em;
     }
 
     .MeBox a.Username:hover {
-    	color:#ddd !important;
+      color:#ddd !important;
     }
 
      .MeMenu {
-    	display:inline-block;
-    	float:right;
+      display:inline-block;
+      float:right;
     }
 
      #Head .MeMenu a {
-    	font-weight:normal;
+      font-weight:normal;
     }
 
-    	.MeMenu a.MeButton {
-    		margin-left:10px;
-    		padding:0;
-    	}
+      .MeMenu a.MeButton {
+        margin-left:10px;
+        padding:0;
+      }
 
-    	#Head .MeMenu ul.PopList li.Item a {
-    		color:#004d9f;
-    	}
+      #Head .MeMenu ul.PopList li.Item a {
+        color:#004d9f;
+      }
 
-    	#Head .MeMenu ul.Poplist li.Item:hover {
-    		background:rgba(0, 0, 0, 0.1);
-    	}
+      #Head .MeMenu ul.Poplist li.Item:hover {
+        background:rgba(0, 0, 0, 0.1);
+      }
 
-		.MeMenu .Sprite16 {
-			background-image:url('http://vanillicon.com/sprites/sprites-14-ffffff.png') !important;
-		}
+    .MeMenu .Sprite16 {
+      background-image:url('http://vanillicon.com/sprites/sprites-14-ffffff.png') !important;
+    }
 
-		.MeMenu .Sprite16:hover {
-			background-image:url('http://vanillicon.com/sprites/sprites-14-dddddd.png') !important;
-		}
+    .MeMenu .Sprite16:hover {
+      background-image:url('http://vanillicon.com/sprites/sprites-14-dddddd.png') !important;
+    }
 
-    	.MeMenu .SpNotifications {
-    		background-position:-160px -100px;
-    	}
+      .MeMenu .SpNotifications {
+        background-position:-160px -100px;
+      }
 
-    	.MeMenu .SpInbox {
-    		background-position:-100px -100px;
-    	}
+      .MeMenu .SpInbox {
+        background-position:-100px -100px;
+      }
 
-    	.MeMenu .SpBookmarks {
-    		background-position:-80px -80px;
-    	}
+      .MeMenu .SpBookmarks {
+        background-position:-80px -80px;
+      }
 
-    	.MeMenu .SpOptions {
-    		background-position:-180px -60px;
-    	}
+      .MeMenu .SpOptions {
+        background-position:-180px -60px;
+      }
 
 
 .breadcrumbs_row {
@@ -297,7 +297,7 @@ a.PhotoWrap:hover img {
 }
 
 #Panel .BoxDiscussionFilter {
-	margin-bottom:20px;
+  margin-bottom:20px;
 }
 
 #lawyerist_sidebar_search {
@@ -305,23 +305,23 @@ a.PhotoWrap:hover img {
 }
 
 #lawyerist_sidebar_search input#st-search-input {
-	border-radius:2px !important;
+  border-radius:2px !important;
     -moz-border-radius:2px !important;
-	-webkit-border-radius:2px !important;
-	font-size:16px !important;
-	height:30px;
-	margin:0;
-	width:298px !important;
+  -webkit-border-radius:2px !important;
+  font-size:16px !important;
+  height:30px;
+  margin:0;
+  width:298px !important;
 }
 
 ul.sidebar_ads {
     list-style:none;
-	margin:0 0 20px 0;
+  margin:0 0 20px 0;
 }
 
 ul.sidebar_ads li {
-	margin-bottom:10px;
-	width:300px;
+  margin-bottom:10px;
+  width:300px;
 }
 
 
@@ -333,7 +333,7 @@ ul.sidebar_ads li {
 
 .ContentColumn .Excerpt,
 .ContentColumn .Message {
-	font-size:16px !important;
+  font-size:16px !important;
 }
 
 .Item .Reactions > * {
@@ -344,37 +344,37 @@ ul.sidebar_ads li {
 .NumberedPager .Ellipsis,
 .NumberedPager .Previous,
 .NumberedPager .Next {
-	display:inline-block;
-	font-size:14px;
-	font-weight:200;
-	height:24px;
-	margin:0 4px 0 0;
-	min-width:24px;
-	padding:0;
-	text-align:center;
+  display:inline-block;
+  font-size:14px;
+  font-weight:200;
+  height:24px;
+  margin:0 4px 0 0;
+  min-width:24px;
+  padding:0;
+  text-align:center;
 }
 
 .NumberedPager a {
-	background-color:#eee;
-	border-radius:12px;
+  background-color:#eee;
+  border-radius:12px;
     -moz-border-radius:12px;
-	-webkit-border-radius:12px;
-	color:#1a678f !important;
+  -webkit-border-radius:12px;
+  color:#1a678f !important;
 }
 
 .NumberedPager a:hover {
-	background-color:#ddd;
-	color:#004d9f !important;
+  background-color:#ddd;
+  color:#004d9f !important;
 }
 
 .PageControls {
-	margin:10px 0;
+  margin:10px 0;
 }
 
 .PageTitle h1,
 .Column .Title a {
-	font-size:24px !important;
-	line-height:35px !important;
+  font-size:24px !important;
+  line-height:35px !important;
 }
 
 .Rank {
@@ -393,33 +393,33 @@ ul.sidebar_ads li {
 }
 
 .PoweredByVanilla {
-	display:none;
+  display:none;
 }
 
 #footer a {
-	color:#1a678f;
-	text-decoration:underline;
+  color:#1a678f;
+  text-decoration:underline;
 }
 
 #footer a:hover {
-	color:#004d9f;
-	text-decoration:none;
+  color:#004d9f;
+  text-decoration:none;
 }
 
 #footer p {
-	color:#666;
-	font-size:16px;
-	line-height:26px;
-	margin:0 0 26px 0;
+  color:#666;
+  font-size:16px;
+  line-height:26px;
+  margin:0 0 26px 0;
 }
 
 #footer #footer_text {
-	padding-left:157px;
-	text-align:left;
+  padding-left:157px;
+  text-align:left;
 }
 
 #footer #footnotes {
-	text-align:right;
+  text-align:right;
 }
 
 
@@ -454,15 +454,15 @@ MailChimp Sidebar Form
 #mc_embed_signup input[type="email"]:focus,
 #mc_embed_signup input[type="url"]:focus,
 #mc_embed_signup textarea:focus {
-	border:1px solid #aaa;
-	color:#444;
-	box-shadow:0 0 3px rgba(0,0,0,.2);
+  border:1px solid #aaa;
+  color:#444;
+  box-shadow:0 0 3px rgba(0,0,0,.2);
 }
 
 #mc_embed_signup label {
-	display:block;
-	font-weight:600;
-	font-size:14px;
+  display:block;
+  font-weight:600;
+  font-size:14px;
   line-height:21px;
 }
 
@@ -473,53 +473,53 @@ p.mailchimp-signup-form {
 }
 
 
-	/*------------------------------
-	Buttons
-	------------------------------*/
+  /*------------------------------
+  Buttons
+  ------------------------------*/
 
-	#mc_embed_signup form input[type="submit"] {
-		background:#bb0000;
-		border:0;
-		border-bottom:5px solid #780000;
-		border-radius:3px;
-		color:#fff;
-		cursor:pointer;
-		display:inline-block;
-		font-family:'Source Sans Pro',sans-serif;
-		font-size:16px !important;
-		line-height:normal;
-		margin-bottom:2px;
-		outline:none;
-		padding:6px 12px;
-		text-decoration:none;
-		text-transform:none;
-	}
+  #mc_embed_signup form input[type="submit"] {
+    background:#bb0000;
+    border:0;
+    border-bottom:5px solid #780000;
+    border-radius:3px;
+    color:#fff;
+    cursor:pointer;
+    display:inline-block;
+    font-family:'Source Sans Pro',sans-serif;
+    font-size:16px !important;
+    line-height:normal;
+    margin-bottom:2px;
+    outline:none;
+    padding:6px 12px;
+    text-decoration:none;
+    text-transform:none;
+  }
 
-	#mc_embed_signup form input[type="submit"]:hover {
-		background:#cc0000;
-	}
+  #mc_embed_signup form input[type="submit"]:hover {
+    background:#cc0000;
+  }
 
-	#mc_embed_signup form input[type="submit"]:active {
-		background:#aa0000;
-		color:#eee;
-		outline:none;
-	}
+  #mc_embed_signup form input[type="submit"]:active {
+    background:#aa0000;
+    color:#eee;
+    outline:none;
+  }
 
 
 /* USEFUL STUFF */
 
 .alignleft {
-	float:left;
+  float:left;
 }
 
 .alignright {
-	float:right;
+  float:right;
 }
 
 .clear {
-	clear:both;
+  clear:both;
 }
 
 .remove_bottom {
-	margin-bottom:0 !important;
+  margin-bottom:0 !important;
 }
