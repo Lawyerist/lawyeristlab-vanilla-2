@@ -25,6 +25,10 @@ USEFUL STUFF
 
 /* BASIC TYPOGRAPHY */
 
+html {
+  font-size:62.5%;
+}
+
 body {
     color:#111;
   font-family:'Source Sans Pro','HelveticaNeue','Helvetica Neue',Helvetica,Arial,sans-serif;
@@ -102,7 +106,7 @@ a.PhotoWrap:hover img {
   float:left;
   font-size:10px;
   line-height:1em;
-  margin:0 14px 0 0;
+  margin:0 1.8rem 0 0;
   padding:0;
   width:310px;
 }
@@ -116,79 +120,48 @@ a.PhotoWrap:hover img {
     width:100%;
   }
 
-#blog_forum_nav {
+.menu-header-container {
   display:inline-block;
   float:left;
+  margin:2rem 0 0 0;
 }
 
-  #blog_forum_nav ul {
+  ul#menu-header {
     display:block;
+    line-height:1em;
     list-style:none;
-    margin:13px 0 0 0;
+    margin:0;
     padding:0;
   }
 
-  #blog_forum_nav li {
+  ul#menu-header li {
     display:inline-block;
     margin:0;
     padding:0;
   }
 
-  #blog_forum_nav li.nav_blog,
-  #blog_forum_nav li.nav_lab {
-  }
-
-  #blog_forum_nav a {
-    border-radius:2px;
-    -moz-border-radius:2px;
-    -webkit-border-radius:2px;
-    color:#004d9f;
-    display:block;
-    font-size:18px;
-    font-weight:bold;
-    letter-spacing:1px;
+  ul#menu-header a {
+    color:#fff;
+    font-size:1.8rem;
+    font-weight:normal;
+    letter-spacing:.1rem;
     line-height:1em;
-    margin:0;
-    padding:7px 10px;
-    text-align:center;
-    text-decoration:none;
+    margin:0 1.8rem 0 0;
     text-transform:uppercase;
   }
 
-  #blog_forum_nav a:hover {
-    background-color:#444;
-    color:#1e79a7;
+  ul#menu-header li:last-child a {
+    margin-right:0;
   }
 
-  #blog_forum_nav li.nav_lab a {
-    color:#aaa;
+  ul#menu-header li.current-menu-item a {
+    color:#aa0000;
   }
 
-  #blog_forum_nav li.nav_lab a:hover {
-    color:#ccc;
+  ul#menu-header a:hover,
+  ul#menu-header li.current-menu-item a:hover {
+    color:#cc0000;
   }
-
-  /*------------------------------
-  Newsletter Signup
-  ------------------------------*/
-
-  #email_social {
-    display:inline-block;
-    float:right;
-    margin-top:13px;
-  }
-
-    #email_social ul {
-      display:block;
-      list-style:none;
-      margin:0;
-    }
-
-      #email_social ul li {
-        display:inline-block;
-        margin:0;
-        padding:0;
-      }
 
 
 .MeBox {
