@@ -101,20 +101,20 @@ a.PhotoWrap:hover img {
 }
 
 #title {
-  background:url('http://cdn.vanillaforums.com/lawyeristlab.vanillaforums.com/3G962GHBQZ7E.jpg') no-repeat left center;
+  background:url('http://cdn.vanillaforums.com/lawyeristlab.vanillaforums.com/FileUpload/5f/0e7757d9a8b24a540a2c8944942b39.png') no-repeat left center;
   display:inline-block;
   float:left;
   font-size:10px;
   line-height:1em;
   margin:0 1.8rem 0 0;
   padding:0;
-  width:310px;
+  width:21.6rem;
 }
 
   #title a {
     display:inline-block;
-    height:38px;
-    margin:10px 0;
+    height:3.8rem;
+    margin:1rem 0;
     padding:0;
     text-indent:-9999px;
     width:100%;
@@ -123,7 +123,7 @@ a.PhotoWrap:hover img {
 .menu-header-container {
   display:inline-block;
   float:left;
-  margin:2rem 0 0 0;
+  margin:2rem 0 0 4rem;
 }
 
   ul#menu-header {
