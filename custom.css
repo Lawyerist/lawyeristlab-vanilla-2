@@ -17,8 +17,8 @@ USEFUL STUFF
 /* LAYOUT */
 
 #leaderboard_container {
-    background:#ddd;
-    padding:10px 0;
+  background:#ddd;
+  padding:10px 0;
   width:100%;
 }
 
@@ -30,7 +30,7 @@ html {
 }
 
 body {
-    color:#111;
+  color:#111;
   font-family:'Source Sans Pro','HelveticaNeue','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 
@@ -41,7 +41,7 @@ body {
 .Column h5,
 .Column h6,
 .Column .Title a {
-    color:#333;
+  color:#333;
   font-family:'Roboto Slab','Droid Sans','Lucida Grande',Tahoma,sans-serif;
   font-weight:bold;
 }
