@@ -106,7 +106,7 @@ a.PhotoWrap:hover img {
   float:left;
   font-size:10px;
   line-height:1em;
-  margin:0 1.8rem 0 0;
+  margin:0;
   padding:0;
   width:21.6rem;
 }
@@ -123,7 +123,7 @@ a.PhotoWrap:hover img {
 .menu-header-container {
   display:inline-block;
   float:left;
-  margin:2rem 0 0 4rem;
+  margin:2rem 0 0 4.4rem;
 }
 
   ul#menu-header {
@@ -142,11 +142,11 @@ a.PhotoWrap:hover img {
 
   ul#menu-header a {
     color:#fff;
-    font-size:1.8rem;
+    font-size:1.6rem;
     font-weight:normal;
     letter-spacing:.1rem;
     line-height:1em;
-    margin:0 1.8rem 0 0;
+    margin:0 1em 0 0;
     text-transform:uppercase;
   }
 
