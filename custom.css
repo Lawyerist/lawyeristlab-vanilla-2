@@ -6,8 +6,8 @@ RESPONSIVE FEATURES
 AVATARS
 LEADERBOARD
 HEADER
-SIDEBAR
 CONTENT COLUMN
+SIDEBAR
 FOOTER
 MailChimp Sidebar Form
 USEFUL STUFF
@@ -263,39 +263,13 @@ a.PhotoWrap:hover img {
     }
 
 
-/* SIDEBAR */
-
-#Panel {
-    width:300px;
-}
-
-#Panel .BoxDiscussionFilter {
-  margin-bottom:20px;
-}
-
-#Panel input#Form_Search {
-  margin-bottom:20px;
-}
-
-#Panel input#Form_Go {
-  display:none;
-}
-
-ul.sidebar_ads {
-    list-style:none;
-  margin:0 0 20px 0;
-}
-
-ul.sidebar_ads li {
-  margin-bottom:10px;
-  width:300px;
-}
-
-
 /* CONTENT COLUMN */
 
 #Body .ContentColumn {
-    margin-left:330px;
+  display:inline-block;
+  float:left;
+  margin:0;
+  width:640px;
 }
 
 .ContentColumn .Excerpt,
@@ -348,6 +322,36 @@ ul.sidebar_ads li {
   background-color:#eee;
   border-radius:10px;
   padding:3px 7px;
+}
+
+
+/* SIDEBAR */
+
+#Panel {
+  float:right;
+  width:300px;
+}
+
+#Panel .BoxDiscussionFilter {
+  margin-bottom:20px;
+}
+
+#Panel input#Form_Search {
+  margin-bottom:20px;
+}
+
+#Panel input#Form_Go {
+  display:none;
+}
+
+ul.sidebar_ads {
+  list-style:none;
+  margin:0 0 20px 0;
+}
+
+ul.sidebar_ads li {
+  margin-bottom:10px;
+  width:300px;
 }
 
 
