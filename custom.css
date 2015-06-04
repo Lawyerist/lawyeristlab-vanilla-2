@@ -123,7 +123,7 @@ a.PhotoWrap:hover img {
 .menu-header-container {
   display:inline-block;
   float:left;
-  margin:2rem 0 0 4.4rem;
+  margin:2rem 0 0 9.1rem;
 }
 
   ul#menu-header {
@@ -155,12 +155,12 @@ a.PhotoWrap:hover img {
   }
 
   ul#menu-header li.current-menu-item a {
-    color:#aa0000;
+    color:#cc0000;
   }
 
   ul#menu-header a:hover,
   ul#menu-header li.current-menu-item a:hover {
-    color:#cc0000;
+    color:#aa0000;
   }
 
 
