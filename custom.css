@@ -232,6 +232,16 @@ a.PhotoWrap:hover img {
         background-position:-180px -60px;
       }
 
+.MeBox .Flyout {
+  left: inherit;
+  right: -8px;
+}
+
+  .Flyout:before,
+  .Flyout:after {
+    left: auto;
+    right: 9px;
+  }
 
 .breadcrumbs_row {
     background:#1e79a7;
