@@ -237,8 +237,8 @@ a.PhotoWrap:hover img {
   right: -8px;
 }
 
-  .Flyout:before,
-  .Flyout:after {
+  .MeBox .Flyout:before,
+  .MeBox .Flyout:after {
     left: auto;
     right: 9px;
   }
