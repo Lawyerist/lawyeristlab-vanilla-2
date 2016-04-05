@@ -332,9 +332,11 @@ Content
   background-color: #eee;
   border-radius: 12px;
   color: #1a678f !important;
+  line-height: 24px;
 }
 
-.NumberedPager a:hover {
+.NumberedPager a:hover,
+.NumberedPager a:focus {
   background-color: #ddd;
   color: #004d9f;
   text-decoration: none;
