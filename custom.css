@@ -201,16 +201,16 @@ Header
     display: block;
     float: right;
     font-family: concourse, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-size: 13px;
     font-variant-ligatures: common-ligatures;
     height: 32px;
-    letter-spacing: .5px;
     line-height: 1;
     margin-left: 5px;
     padding: 0;
     outline: none;
     text-align: center;
     text-decoration: none;
+    text-transform: uppercase;
     vertical-align: middle;
     -webkit-appearance: none;
     width: 100px;
