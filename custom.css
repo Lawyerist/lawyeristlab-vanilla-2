@@ -262,6 +262,12 @@ Header
     margin:0;
   }
 
+    .MeBox .PhotoWrap img {
+      border: 1px solid white;
+      height: 38px;
+      width: 38px;
+    }
+
     .MeBox a.Username {
       display:inline-block;
       float:right;
