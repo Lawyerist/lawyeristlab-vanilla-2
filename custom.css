@@ -342,12 +342,10 @@ a.PhotoWrap:hover img {
   width:300px;
 }
 
+#Panel input#Form_Search,
+#Panel .BigButton,
 #Panel .BoxDiscussionFilter {
-  margin-bottom:20px;
-}
-
-#Panel input#Form_Search {
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
 
 #Panel input#Form_Go {
