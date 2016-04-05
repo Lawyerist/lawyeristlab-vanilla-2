@@ -64,6 +64,7 @@ h6,
 }
 
 .breadcrumbs_row,
+.Button,
 .Buttons,
 .CommentOptions,
 .editor-help-text,
@@ -89,9 +90,7 @@ pre {
 
 /* Typography */
 a,
-a:visited,
-#Foot a,
-#foot a:visited {
+#Foot a {
 	color: #1e79a7;
 	text-decoration: none;
 }
@@ -104,8 +103,7 @@ a:focus,
 	text-decoration: underline;
 }
 
-.Title a,
-.Title a:visited {
+.Title a {
   color: #111;
 }
 
@@ -300,6 +298,11 @@ Content
   width: 640px;
 }
 
+.Button:hover,
+.Button:focus {
+  text-decoration: none;
+}
+
 .ContentColumn .Excerpt,
 .ContentColumn .Message {
   font-size: 16px;
@@ -374,6 +377,11 @@ Sidebar
 #Panel .BoxDiscussionFilter,
 #Panel .GuestBox {
   margin-bottom: 20px;
+}
+
+#Panel a.BigButton:hover,
+#Panel a.BigButton:focus {
+  text-decoration: none;
 }
 
 #Panel input#Form_Go {
