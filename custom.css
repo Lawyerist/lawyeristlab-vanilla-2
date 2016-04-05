@@ -120,50 +120,6 @@ a.PhotoWrap:hover img {
     width:100%;
   }
 
-.menu-header-container {
-  display:inline-block;
-  float:left;
-  margin:2rem 0 0 9.1rem;
-}
-
-  ul#menu-header {
-    display:block;
-    line-height:1em;
-    list-style:none;
-    margin:0;
-    padding:0;
-  }
-
-  ul#menu-header li {
-    display:inline-block;
-    margin:0;
-    padding:0;
-  }
-
-  ul#menu-header a {
-    color:#fff;
-    font-size:1.6rem;
-    font-weight:normal;
-    letter-spacing:.1rem;
-    line-height:1em;
-    margin:0 1em 0 0;
-    text-transform:uppercase;
-  }
-
-  ul#menu-header li:last-child a {
-    margin-right:0;
-  }
-
-  ul#menu-header li.current-menu-item a {
-    color:#cc0000;
-  }
-
-  ul#menu-header a:hover,
-  ul#menu-header li.current-menu-item a:hover {
-    color:#aa0000;
-  }
-
-
 .MeBox {
   float:right;
   margin-left:15px;
