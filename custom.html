@@ -4,38 +4,34 @@
   {asset name="Head"}
 </head>
 <body id="{$BodyID}" class="{$BodyClass}">
-   <div id="Frame">
-      <div class="Head" id="Head">
-         <div class="Row">
-            <h1 class="SiteTitle" id="title"><a href="http://lawyerist.com">Lawyerist.com</a></h1>
-
-            {module name="MeModule"}
-
-        	<div class="clear"></div>
-
-         </div>
+  <div id="Frame">
+    <div class="Head" id="Head">
+      <div class="Row">
+        <h1 class="SiteTitle" id="title"><a href="http://lawyerist.com">Lawyerist.com</a></h1>
+        {module name="MeModule"}
+        <div class="clear"></div>
       </div>
-      <div id="Body">
-        <div class="Row breadcrumbs_row">
-            <div class="BreadcrumbsWrapper">{breadcrumbs}</div>
+    </div>
+    <div id="Body">
+      <div class="Row breadcrumbs_row">
+        <div class="BreadcrumbsWrapper">{breadcrumbs}</div>
+      </div>
+      <div class="Row">
+        <div class="Column ContentColumn" id="Content">
+          {asset name="Content"}
         </div>
-        <div class="Row">
-          <div class="Column ContentColumn" id="Content">
-            {asset name="Content"}
-          </div>
-          <div class="Column PanelColumn" id="Panel">
-            {searchbox}
-            {asset name="Panel"}
-          </div>
-         </div>
+        <div class="Column PanelColumn" id="Panel">
+          {searchbox}
+          {asset name="Panel"}
+        </div>
       </div>
-      <div id="Foot">
-         <div class="Row">
-            <a href="{vanillaurl}" class="PoweredByVanilla" title="Community Software by Vanilla Forums">Powered by Vanilla</a>
-            {asset name="Foot"}
-         </div>
+    </div>
+    <div id="Foot">
+      <div class="Row">
+        {asset name="Foot"}
       </div>
-   </div>
-   {event name="AfterBody"}
+    </div>
+  </div>
+  {event name="AfterBody"}
 </body>
 </html>
