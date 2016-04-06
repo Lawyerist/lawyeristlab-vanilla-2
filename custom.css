@@ -6,6 +6,7 @@ Typography
 Avatars
 Leaderboard
 Header
+Breadcrumbs
 Content
 Sidebar
 Footer
@@ -263,6 +264,11 @@ Header
     right: 9px;
   }
 
+
+/*------------------------------
+Breadcrumbs
+------------------------------*/
+
 .breadcrumbs_row {
     background: #1e79a7;
     margin-bottom: 20px;
@@ -278,9 +284,10 @@ Header
     .BreadcrumbsWrapper a {
         color: #fff;
         display: inline-block;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 1em;
-        padding: 7px 10px 8px 10px;
+        padding: 8px 10px;
+        text-decoration: none;
     }
 
     .BreadcrumbsWrapper a:hover,
@@ -292,6 +299,10 @@ Header
 
     .BreadcrumbsWrapper .Crumb {
         color: #eee;
+        display: inline-block;
+        font-size: 16px;
+        line-height: 1em;
+        padding: 8px 0;
     }
 
 
