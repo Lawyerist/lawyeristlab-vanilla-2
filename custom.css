@@ -44,15 +44,15 @@ html {
 Typography
 ------------------------------*/
 
-/* Equity is the default font. */
+/* Concourse is the default font. */
 body {
   color: #111;
-	font-family: equity, serif;
+	font-family: concourse, sans-serif;
   font-variant-ligatures: common-ligatures;
 }
 
 
-/* Things that use Concourse */
+/* Things that use Concourse for headings */
 h1,
 h2,
 h3,
@@ -64,21 +64,22 @@ h6,
   font-family: concourse-headings, sans-serif;
 }
 
-.breadcrumbs_row,
-.Button,
-.Buttons,
-.CommentOptions,
-.editor-help-text,
-#footer,
-.Item-Header,
-label,
-.MeBox,
-.Meta,
-.PageControls,
-#Panel,
-.PostOptions,
-.Reactions {
-  font-family: concourse, sans-serif;
+
+/* Things that use Equity */
+.AlertMessage,
+.Excerpt,
+input,
+.Message,
+.PageDescription,
+select,
+textarea {
+  font-family: equity, serif;
+}
+
+input,
+select,
+textarea {
+  font-family: equity, serif !important;
 }
 
 
@@ -88,6 +89,12 @@ pre {
   font-family: triplicate, monospace;
 }
 
+/* Font overrides */
+input[type="button"],
+input[type="submit"],
+#Panel input#Form_Search {
+  font-family: concourse, sans-serif !important;
+}
 
 /* Typography */
 a,
@@ -389,6 +396,12 @@ Sidebar
 #Panel {
   float:right;
   width:300px;
+}
+
+#Panel input#Form_Search {
+  font-size: 16px;
+  line-height: 24px;
+  padding: 4px;
 }
 
 #Panel input#Form_Search,
