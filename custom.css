@@ -60,7 +60,6 @@ h4,
 h5,
 h6,
 .Title a {
-  color: #333;
   font-family: concourse-headings, sans-serif;
 }
 
@@ -293,7 +292,7 @@ Breadcrumbs
         display: inline-block;
         font-size: 16px;
         line-height: 1em;
-        padding: 8px 10px;
+        padding: 10px 10px 11px 10px;
         text-decoration: none;
     }
 
@@ -309,7 +308,7 @@ Breadcrumbs
         display: inline-block;
         font-size: 16px;
         line-height: 1em;
-        padding: 8px 0;
+        padding: 10px 0;
     }
 
 
@@ -405,6 +404,13 @@ Sidebar
   padding: 4px;
 }
 
+#Panel .BigButton {
+  background-color: #b00;
+  border: 0;
+  color: #fff;
+  font-weight: normal;
+}
+
 #Panel input#Form_Search,
 #Panel .BigButton,
 #Panel .BoxDiscussionFilter,
@@ -414,7 +420,12 @@ Sidebar
 
 #Panel a.BigButton:hover,
 #Panel a.BigButton:focus {
+  background-color: #c00;
   text-decoration: none;
+}
+
+#Panel a.BigButton:active {
+  background-color: #a00;
 }
 
 #Panel input#Form_Go {
