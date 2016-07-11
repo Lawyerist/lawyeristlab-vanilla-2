@@ -409,6 +409,7 @@ Sidebar
   border: 0;
   color: #fff;
   font-weight: normal;
+  padding: 10px;
 }
 
 #Panel input#Form_Search,
