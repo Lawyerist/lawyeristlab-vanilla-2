@@ -343,6 +343,20 @@ Content
   visibility: visible;
 }
 
+
+.PageControls {
+  margin: 10px 0;
+}
+
+.DataBox-Comments,
+.FormTitleWrapper  {
+  clear: both;
+}
+
+#PagerAfter {
+  margin-bottom: 20px;
+}
+
 .NumberedPager a,
 .NumberedPager .Ellipsis,
 .NumberedPager .Previous,
@@ -369,10 +383,6 @@ Content
   background-color: #ddd;
   color: #004d9f;
   text-decoration: none;
-}
-
-.PageControls {
-  margin: 10px 0;
 }
 
 .PageTitle h1,
