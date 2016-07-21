@@ -343,7 +343,6 @@ Content
   visibility: visible;
 }
 
-
 .PageControls {
   margin: 10px 0;
 }
@@ -351,6 +350,10 @@ Content
 .DataBox-Comments,
 .FormTitleWrapper  {
   clear: both;
+}
+
+.BeforeCommentHeading {
+  margin: 10px 0;
 }
 
 #PagerAfter {
