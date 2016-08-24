@@ -173,14 +173,14 @@ Header
 	width: auto;
 }
 
-	#title a {
+	a#title {
     color: #fff;
 		display: block;
     font-weight: normal;
 	}
 
-  #title a:hover,
-  #title a:focus {
+  a#title:hover,
+  a#title:focus {
     color: #ddd;
     text-decoration: none;
   }
