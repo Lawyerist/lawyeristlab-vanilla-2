@@ -316,6 +316,10 @@ Breadcrumbs
 Content
 ------------------------------*/
 
+.Activities {
+  display: none;
+}
+
 #Body .ContentColumn {
   display: inline-block;
   float: left;
